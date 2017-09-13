@@ -4,9 +4,10 @@ Written by Deemo Harlos
 
 How to start coding your own version of prototype?
 ---
-1. Fork this repo to your own repo.
+1. Fork this repo to your own repo (at master branch).
 2. Now commit all the magic to your own forked repo.
 3. Make a pull request back in this repo.
+Remember to click "compare across forks" !!
 4. After discussion, we'll merge these requests.
 
 How to show your own version of prototype?
