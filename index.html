@@ -2,10 +2,42 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<title>PTT-UI prototype</title>
+		<title>PTT-UI prototype - login</title>
 		<link href="index.css" rel="stylesheet"/>
+		<link href="wireframe.css" rel="stylesheet"/>
+		<link href="structure.css" rel="stylesheet"/>
 	</head>
-	<body>
-		
+	<body class="flex row center">
+		<div id="screen">
+			<div id="page" class="flex column center">
+				<div id="title"><span>PTT</span></div>
+				<div id="description">
+					<p>
+						<span>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a vehicula lorem. Aliquam vulputate placerat mi. Proin sollicitudin eros consectetur placerat tristique. Donec sed bibendum lorem, vitae vestibulum tellus.
+						</span>
+					</p>
+				</div>
+				<div id="login">
+					<div id="logintitle" class="flex row center">
+						<div id="loginicon"></div>
+						<div id="logintext"><span>LOGIN</span></div>
+					</div>
+					<div id="account" class="inputrow flex row center">
+						<div id="accounttext" class="inputattr"><span>ID</span></div>
+						<input type="text" size="1" id="accountinput" class="inputvalue">
+					</div>
+					<div id="password" class="inputrow flex row center">
+						<div id="passwordtext" class="inputattr"><span>Pwd</span></div>
+						<input type="password" size="1" id="passwordinput" class="inputvalue">
+					</div>
+					<div id="visitor">
+						<p>
+							<span>Just visiting? </span> <a href="#">Visitor mode</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
