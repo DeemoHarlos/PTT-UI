@@ -9,7 +9,7 @@
 	</head>
 	<body class="flex row center">
 		<div id="screen">
-			<div id="page" class="flex column center">
+			<div id="loginpage" class="fill frame flex column center">
 				<div id="title"><span>PTT</span></div>
 				<div id="description">
 					<p>
@@ -21,23 +21,204 @@
 				<div id="login">
 					<div id="logintitle" class="flex row center">
 						<div id="loginicon"></div>
-						<div id="logintext"><span>LOGIN</span></div>
+						<div id="logintext"><span>登入</span></div>
 					</div>
 					<div id="account" class="inputrow flex row center">
-						<div id="accounttext" class="inputattr"><span>ID</span></div>
+						<div id="accounttext" class="inputattr"><span>帳號</span></div>
 						<input type="text" size="1" id="accountinput" class="inputvalue">
 					</div>
 					<div id="password" class="inputrow flex row center">
-						<div id="passwordtext" class="inputattr"><span>Pwd</span></div>
+						<div id="passwordtext" class="inputattr"><span>密碼</span></div>
 						<input type="password" size="1" id="passwordinput" class="inputvalue">
 					</div>
 					<div id="visitor">
-						<p>
-							<span>Just visiting? </span> <a href="#">Visitor mode</a>
-						</p>
+						<span>或逛逛？ </span> <a href="#" onclick="login()">訪客模式</a>
 					</div>
 				</div>
 			</div>
+			<div id="mainpage" class="fill frame">
+				<div id="buttons" class="fill flex row">
+					<div id="functionbutton" onclick="showpanel()"></div>
+					<div class="tags"><span>熱門訂閱</span></div>
+					<div class="tags"><span>熱門看板</span></div>
+					<div class="tags"><span>熱門文章</span></div>
+				</div>
+				<div id="content">
+					<div class="article">
+						<div class="articletitle"><span>這個真的走遠了</span></div>
+						<div class="authordate flex row">
+							<div class="author"><span>Deemo Harlos</span></div>
+							<div class="date"><span>Sep 27</span></div>
+						</div>
+						<div class="stats flex row">
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+						</div>
+					</div>
+					<div class="article">
+						<div class="articletitle"><span>這個真的走遠了</span></div>
+						<div class="authordate flex row">
+							<div class="author"><span>Deemo Harlos</span></div>
+							<div class="date"><span>Sep 27</span></div>
+						</div>
+						<div class="stats flex row">
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+						</div>
+					</div>
+					<div class="article">
+						<div class="articletitle"><span>這個真的走遠了</span></div>
+						<div class="authordate flex row">
+							<div class="author"><span>Deemo Harlos</span></div>
+							<div class="date"><span>Sep 27</span></div>
+						</div>
+						<div class="stats flex row">
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+						</div>
+					</div>
+					<div class="article">
+						<div class="articletitle"><span>這個真的走遠了</span></div>
+						<div class="authordate flex row">
+							<div class="author"><span>Deemo Harlos</span></div>
+							<div class="date"><span>Sep 27</span></div>
+						</div>
+						<div class="stats flex row">
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+						</div>
+					</div>
+					<div class="article">
+						<div class="articletitle"><span>這個真的走遠了</span></div>
+						<div class="authordate flex row">
+							<div class="author"><span>Deemo Harlos</span></div>
+							<div class="date"><span>Sep 27</span></div>
+						</div>
+						<div class="stats flex row">
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+						</div>
+					</div>
+					<div class="article">
+						<div class="articletitle"><span>這個真的走遠了</span></div>
+						<div class="authordate flex row">
+							<div class="author"><span>Deemo Harlos</span></div>
+							<div class="date"><span>Sep 27</span></div>
+						</div>
+						<div class="stats flex row">
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+						</div>
+					</div>
+					<div class="article">
+						<div class="articletitle"><span>這個真的走遠了</span></div>
+						<div class="authordate flex row">
+							<div class="author"><span>Deemo Harlos</span></div>
+							<div class="date"><span>Sep 27</span></div>
+						</div>
+						<div class="stats flex row">
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+						</div>
+					</div>
+					<div class="article">
+						<div class="articletitle"><span>這個真的走遠了</span></div>
+						<div class="authordate flex row">
+							<div class="author"><span>Deemo Harlos</span></div>
+							<div class="date"><span>Sep 27</span></div>
+						</div>
+						<div class="stats flex row">
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+						</div>
+					</div>
+					<div class="article">
+						<div class="articletitle"><span>這個真的走遠了</span></div>
+						<div class="authordate flex row">
+							<div class="author"><span>Deemo Harlos</span></div>
+							<div class="date"><span>Sep 27</span></div>
+						</div>
+						<div class="stats flex row">
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+						</div>
+					</div>
+					<div class="article">
+						<div class="articletitle"><span>這個真的走遠了</span></div>
+						<div class="authordate flex row">
+							<div class="author"><span>Deemo Harlos</span></div>
+							<div class="date"><span>Sep 27</span></div>
+						</div>
+						<div class="stats flex row">
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+						</div>
+					</div>
+					<div class="article">
+						<div class="articletitle"><span>這個真的走遠了</span></div>
+						<div class="authordate flex row">
+							<div class="author"><span>Deemo Harlos</span></div>
+							<div class="date"><span>Sep 27</span></div>
+						</div>
+						<div class="stats flex row">
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+						</div>
+					</div>
+					<div class="article">
+						<div class="articletitle"><span>這個真的走遠了</span></div>
+						<div class="authordate flex row">
+							<div class="author"><span>Deemo Harlos</span></div>
+							<div class="date"><span>Sep 27</span></div>
+						</div>
+						<div class="stats flex row">
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+							<div><div class="staticon">YEE</div><div class="statnum">87</div></div>
+						</div>
+					</div>
+				</div>
+				<div id="functionpanel">
+					<div id="functionback" onclick="hidepanel()"></div>
+				</div>
+			</div>
 		</div>
+
+		<script src="index.js"></script>
 	</body>
 </html>

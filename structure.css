@@ -4,6 +4,7 @@ body{
 	min-height:100vh;
 	font-size: 20pt;
 	overflow-x: hidden;
+	font-family: sans-serif;
 }
 html *{box-sizing: border-box;}
 .flex{display:flex;}
@@ -21,4 +22,10 @@ html *::-webkit-scrollbar {
 html *::-webkit-scrollbar-thumb {
 	background-color: rgba(0,0,0,.7);
 	border-radius: 100px;
+}
+.frame{
+	overflow: hidden;
+}
+.fill{
+	height:100%;
 }
